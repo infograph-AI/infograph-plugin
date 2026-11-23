@@ -1,22 +1,29 @@
-# Infograph for Cursor
+# Infograph for Cursor and Gemini CLI
 
-Connects Cursor to [Infograph](https://infograph.ai), so the agent can work with your business
+Connects your coding agent to [Infograph](https://infograph.ai), so it can work with your business
 data: find a table, query it with SQL, and build dashboards, reports and analyses you can keep and
 share.
 
 Infograph keeps your uploaded files and the data from your connected apps and databases (such as
 Shopify, Stripe, Google Analytics, Postgres and Google Sheets) as tables in one private data lake.
-Queries run there, over every row, and only the answer comes back to Cursor.
+Queries run there, over every row, and only the answer comes back to the agent.
 
-## What is in this plugin
+## Install
 
-- **An MCP server**, `https://app.infograph.ai/mcp` (`mcp.json`). Nothing runs on your machine.
+- **Cursor:** add Infograph from the Cursor marketplace.
+- **Gemini CLI:** `gemini extensions install https://github.com/infograph-AI/cursor-plugin`, then
+  start `gemini` and run `/mcp auth infograph`.
+
+## What is in this repository
+
+- **An MCP server**, `https://app.infograph.ai/mcp` (`mcp.json` for Cursor, `gemini-extension.json`
+  for Gemini CLI). Nothing runs on your machine.
 - **A skill** (`skills/infograph/SKILL.md`) that tells the agent when to use Infograph and in what
   order to call its tools.
 
 ## Signing in
 
-There is no API key. The first time the agent calls Infograph, Cursor opens a browser window: sign
+There is no API key. The first time the agent calls Infograph, a browser window opens: sign
 in to Infograph and choose the account the agent should work in, your personal account or one of
 your teams. You can disconnect it at any time on the AI Connect page in Infograph.
 
