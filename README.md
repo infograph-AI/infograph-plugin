@@ -1,4 +1,4 @@
-# Infograph for Cursor and Gemini CLI
+# Infograph for coding agents
 
 Connects your coding agent to [Infograph](https://infograph.ai), so it can work with your business
 data: find a table, query it with SQL, and build dashboards, reports and analyses you can keep and
@@ -13,6 +13,8 @@ Queries run there, over every row, and only the answer comes back to the agent.
 - **Cursor:** add Infograph from the Cursor marketplace.
 - **Gemini CLI:** `gemini extensions install https://github.com/infograph-AI/infograph-plugin`, then
   start `gemini` and run `/mcp auth infograph`.
+- **Cline and other agents:** add `https://app.infograph.ai/mcp` as a remote server with the
+  Streamable HTTP transport, then sign in. `llms-install.md` has the exact entry.
 
 ## What is in this repository
 
