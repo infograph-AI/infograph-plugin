@@ -11,7 +11,7 @@ Queries run there, over every row, and only the answer comes back to the agent.
 ## Install
 
 - **Cursor:** add Infograph from the Cursor marketplace.
-- **Gemini CLI:** `gemini extensions install https://github.com/infograph-AI/cursor-plugin`, then
+- **Gemini CLI:** `gemini extensions install https://github.com/infograph-AI/infograph-plugin`, then
   start `gemini` and run `/mcp auth infograph`.
 
 ## What is in this repository
