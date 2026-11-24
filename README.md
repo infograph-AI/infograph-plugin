@@ -65,3 +65,9 @@ of your Infograph plan.
 - Guide: https://infograph.ai/docs/ai-connect
 - Privacy: https://infograph.ai/privacy
 - Support: support@infograph.ai
+
+## Licence
+
+The files in this repository are MIT licensed (see `LICENSE`). That covers the plugin manifests, the
+skill and these notes. The Infograph service itself is a hosted product with its own
+[terms](https://infograph.ai/terms).

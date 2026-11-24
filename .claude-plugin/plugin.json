@@ -1,7 +1,7 @@
 {
   "name": "infograph",
   "description": "Query your business data and build live dashboards, reports and analyses in Infograph, from your coding agent.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Infograph",
     "email": "support@infograph.ai",
@@ -18,5 +18,5 @@
     "reports"
   ],
   "privacyPolicyUrl": "https://infograph.ai/privacy",
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
