@@ -1,5 +1,7 @@
 # Infograph for coding agents
 
+[![Infograph MCP connector](https://glama.ai/mcp/connectors/ai.infograph/infograph/badges/score.svg)](https://glama.ai/mcp/connectors/ai.infograph/infograph)
+
 Connects your coding agent to [Infograph](https://infograph.ai), so it can work with your business
 data: find a table, query it with SQL, and build dashboards, reports and analyses you can keep and
 share.
