@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "infograph": {
+      "type": "http",
+      "url": "https://app.infograph.ai/mcp"
+    }
+  }
+}

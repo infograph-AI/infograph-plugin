@@ -13,13 +13,15 @@ Queries run there, over every row, and only the answer comes back to the agent.
 - **Cursor:** add Infograph from the Cursor marketplace.
 - **Gemini CLI:** `gemini extensions install https://github.com/infograph-AI/infograph-plugin`, then
   start `gemini` and run `/mcp auth infograph`.
+- **Claude Code:** `/plugin install infograph --marketplace infograph-AI/infograph-plugin`
+- **Grok Build:** add Infograph from the plugin marketplace.
 - **Cline and other agents:** add `https://app.infograph.ai/mcp` as a remote server with the
   Streamable HTTP transport, then sign in. `llms-install.md` has the exact entry.
 
 ## What is in this repository
 
-- **An MCP server**, `https://app.infograph.ai/mcp` (`mcp.json` for Cursor, `gemini-extension.json`
-  for Gemini CLI). Nothing runs on your machine.
+- **An MCP server**, `https://app.infograph.ai/mcp` (`mcp.json` for Cursor, `.mcp.json` for Claude Code and
+  Grok Build, `gemini-extension.json` for Gemini CLI). Nothing runs on your machine.
 - **A skill** (`skills/infograph/SKILL.md`) that tells the agent when to use Infograph and in what
   order to call its tools.
 

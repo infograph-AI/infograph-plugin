@@ -1,0 +1,22 @@
+{
+  "name": "infograph",
+  "description": "Query your business data and build live dashboards, reports and analyses in Infograph, from your coding agent.",
+  "version": "1.0.2",
+  "author": {
+    "name": "Infograph",
+    "email": "support@infograph.ai",
+    "url": "https://infograph.ai"
+  },
+  "homepage": "https://infograph.ai/docs/ai-connect",
+  "repository": "https://github.com/infograph-AI/infograph-plugin",
+  "keywords": [
+    "data-analysis",
+    "sql",
+    "dashboards",
+    "business-intelligence",
+    "analytics",
+    "reports"
+  ],
+  "privacyPolicyUrl": "https://infograph.ai/privacy",
+  "license": "UNLICENSED"
+}

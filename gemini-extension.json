@@ -1,6 +1,6 @@
 {
   "name": "infograph",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Query your business data and build live dashboards, reports and analyses in Infograph.",
   "mcpServers": {
     "infograph": {

@@ -1,0 +1,15 @@
+{
+  "name": "infograph",
+  "description": "Infograph's plugin for coding agents: your business data, queried with SQL and turned into live dashboards.",
+  "owner": {
+    "name": "Infograph",
+    "email": "support@infograph.ai"
+  },
+  "plugins": [
+    {
+      "name": "infograph",
+      "source": "./",
+      "description": "Query your business data and build live dashboards, reports and analyses in Infograph, from your coding agent."
+    }
+  ]
+}
